@@ -1,0 +1,18 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "com.bettervillagesystem.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "mixins": [
+        "GiveGiftToHeroMixin",
+        "IronGolemMixin",
+        "RaidMixin",
+        "RaidsMixin",
+        "VillagerMixin"
+    ],
+    "client": [],
+    "injectors": {
+        "defaultRequire": 1
+    },
+    "refmap": "bettervillagesystem.mixin-refmap.json"
+}
